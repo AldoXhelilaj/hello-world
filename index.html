@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        test
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="test">
+    <select name="cars" id="cars">
+        <option value="">Select Car</option>
+        <option value="1">First</option>
+        <option value="2">Second</option>
+        <option value="3">Third</option>
+    </select>
+</div>
+
+<ul>
+    <li>Saab <span style="color:red; cursor:pointer;font-weight:bold;" title="Delete?" onclick="removeFromArray('Saab')">X</span></li>
+    <li>Volvo <span style="color:red; cursor:pointer;font-weight:bold;" title="Delete?" onclick="removeFromArray('Volvo')">X</span></li>
+    <li>Bmw <span style="color:red; cursor:pointer;font-weight:bold;" title="Delete?" onclick="removeFromArray('Bmw')">X</span></li>
+</ul>
+
+<input type="text" name="selected_car" id="selected_car">
+
+<br>
+<br>
+<div id="output" onclick="window.location.href = 'https://facebook.com'"></div>
+
+
+<br><br><br>
+
+<div class="container" style="background:blue;">
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-4" style="background:red; height:50px; border-left:1px solid #000;"></div>
+        <div class="col-md-3 col-md-offset-1 col-sm-4" style="background:red; height:50px; border-left:1px solid #000;"></div>
+        <div class="col-md-3 col-md-offset-1 col-sm-4" style="background:red; height:50px; border-left:1px solid #000;"></div>
+    </div>
+
+    <div class="btn btn-warning">Submit</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
